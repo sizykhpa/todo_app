@@ -1,0 +1,103 @@
+form{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: rgb(58, 8, 4);
+}
+
+#task_todo{
+  font-size: 16px;
+  margin: 5px 5px 5px 0px;
+  border: 1px solid #b3afaf;
+  border-radius: 4px;
+  height: 22px;
+}
+#task_todo:focus{
+  font-size: 16px;
+  border-color: #8b89a1;
+  outline: 0;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #8b89a1;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #757385;
+  border: none;
+}
+
+.cross_line {
+  text-decoration: line-through;
+  color: rgb(182, 182, 182);
+}
+
+#todo_button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8b89a1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+#todo_button:hover {
+  background-color: #757385;
+  border: none;
+}
+
+#button_hide {
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+/* #button_hide:hover {
+
+} */
+
+
+.remove_button {
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  margin-left: 7px;
+  align-content: center;
+}
+
+#arrow_symbol::before {
+  content: "\276f";
+  display: block;
+
+}
+
+.rotate_arrow {
+  transform: rotate(90deg);
+}
+
+.block-span {
+  width: 15px;
+  display: inline-block;
+}
+
+.todo_span {
+  margin-left: 5px;
+}
+
+@media (min-width: 600px) {
+  #task_todo{
+    width: 250px;
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div>
+    <form>
+      <label for="task_todo">New todo: </label>
+      <input type="text" id="task_todo">
+      <input id="todo_button" type="submit" value="Submit">
+    </form>
+  </div>
+  <div style="margin-top: 10px;">
+    <ul class="no-bullets dont_move" id="list_todo">
+    </ul>
+  </div>
+  <div>
+    <!-- <button id="button_hide" style="margin-top: 20px;">Hide/show completed tasks</button> -->
+    <button id="button_hide"><span id="arrow_symbol" class="block-span rotate_arrow"></span><span style="margin-left: 4px;margin-right: 4px;">Completed</span></button>
+    <hr>
+  
+  </div>
+  <div style="margin-top: 10px;" id="completed">
+    
+    <ul class="no-bullets dont_move" id="completed_tasks">
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
