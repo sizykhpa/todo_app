@@ -96,6 +96,12 @@ button:hover {
   margin-left: 5px;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 @media (min-width: 600px) {
   #task_todo{
     width: 250px;
